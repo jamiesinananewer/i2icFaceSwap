@@ -3,8 +3,10 @@
 
 This repository contains a face swapping pipeline built on 3DDFA_V2 Morphable Face Models. The pipeline processes an input face image provided by the user, generates a corresponding 3D model, tracks face models within a video, and swaps the source face onto one or more characters in the video.
 
-## License
+DISCLAIMER: This project is unfinished. It is likely that the final product will look very different from how it does now.
 
+## License
+All non-copyrighted work is released under an Apache License. All copyrighted work is used under the following MIT license:
 
 Copyright (c) 2017 Max deGroot, Ellis Brown
 Copyright (c) 2019 Zisian Wong, Shifeng Zhang
@@ -31,7 +33,7 @@ SOFTWARE.
 
 ## Overview
 
-This pipeline utilizes 3DDFA_V2 Morphable Face Models to perform face swapping. It generates a 3D model from a provided face image, tracks face models within a video, and replaces the faces in the video with the input face.
+This pipeline utilizes 3DDFA_V2 Morphable Face Models to perform face swapping. It generates a 3D model from a provided face image, tracks face models within a video, and replaces the faces in the video with the input face. All files are designed to be run in a linux terminal, with the exception of view_obj.py which has been designed for a powershell terminal.
 
 ## Demonstration
 
@@ -62,10 +64,13 @@ This pipeline utilizes 3DDFA_V2 Morphable Face Models to perform face swapping. 
    ```bash
    git clone https://github.com/yourusername/your-repo.git
    ```
-2. **Install Dependencies**  
-   Refer to the instructions in [INSTALL.md](./INSTALL.md) for dependency installation.
-3. **Run the Pipeline**  
-   Follow the guidelines provided in [USAGE.md](./USAGE.md) to execute the pipeline on your input data.
+2. **Activate the virtual environment**  
+   The requirements for this project have been pre-installed into a virtual environment running Python 3.9. To use the code, activate the venv by running the following command in your terminal:
+   ```bash
+   source venv39/bin/activate
+   ```
+4. **Run the Pipeline**  
+   Use image_swap or video_swap, along with your own images to create a basic swap.
 
 For any questions or contributions, please refer to the repository guidelines or open an issue.
 ```

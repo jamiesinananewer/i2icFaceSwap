@@ -1,7 +1,7 @@
 
 # Face Swap Pipeline
 
-This repository contains a face swapping pipeline built on 3DDFA_V2 Morphable Face Models. The pipeline processes an input face image provided by the user, generates a corresponding 3D model, tracks face models within a video, and swaps the source face onto one or more characters in the video.
+This repository contains a face swapping pipeline built on 3DDFA_V2 Morphable Face Models (https://github.com/cleardusk/3DDFA_V2). The pipeline processes an input face image provided by the user, generates a corresponding 3D model, tracks face models within a video, and swaps the source face onto one or more characters in the video.
 
 DISCLAIMER: This project is unfinished. It is likely that the final product will look very different from how it does now.
 

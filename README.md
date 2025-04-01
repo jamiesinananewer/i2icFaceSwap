@@ -39,7 +39,6 @@ This pipeline utilizes 3DDFA_V2 Morphable Face Models to perform face swapping. 
 
 ### Input Face
 
-![Input Face](examples/inputs/cillian.jpg)  
 <img src="examples/inputs/cillian.jpg" alt="Description of the image" width="300" />
 
 ### Source Video

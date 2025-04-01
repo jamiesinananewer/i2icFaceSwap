@@ -1,11 +1,11 @@
-```markdown
+
 # Face Swap Pipeline
 
 This repository contains a face swapping pipeline built on 3DDFA_V2 Morphable Face Models. The pipeline processes an input face image provided by the user, generates a corresponding 3D model, tracks face models within a video, and swaps the source face onto one or more characters in the video.
 
 ## License
 
-```
+
 Copyright (c) 2017 Max deGroot, Ellis Brown
 Copyright (c) 2019 Zisian Wong, Shifeng Zhang
 Copyright (c) 2020 Jianzhu Guo, in Center for Biometrics and Security Research (CBSR)
@@ -27,7 +27,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
+
 
 ## Overview
 

@@ -40,23 +40,15 @@ This pipeline utilizes 3DDFA_V2 Morphable Face Models to perform face swapping. 
 ### Input Face
 
 ![Input Face](examples/inputs/cillian.jpg)  
-*Replace `path/to/face_image.jpg` with the correct path to the input face image.*
+
 
 ### Source Video
 
-<video width="640" height="360" controls>
-  <source src="examples/inputs/severance.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>  
-*Replace `path/to/source_video.mp4` with the correct path to the source video.*
+![Source Video](examples/inputs/severance.gif) 
 
 ### Face Swap Result
 
-<video width="640" height="360" controls>
-  <source src="examples/results/severance_cillian_swapped_corrected.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>  
-*Replace `path/to/swapped_video.mp4` with the correct path to the face swap result video.*
+![Swap Result](examples/results/severance_cillian_swapped_corrected.gif) 
 
 ## Getting Started
 

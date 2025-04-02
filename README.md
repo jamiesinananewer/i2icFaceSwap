@@ -55,8 +55,11 @@ This pipeline utilizes 3DDFA_V2 Morphable Face Models to perform face swapping. 
    ```bash
    git clone https://github.com/yourusername/your-repo.git
    ```
-2. **Download the requirements**  
-   
+2. **Install the requirements**  
+   Inside a virtual environment running Pythion 3.9, inatall the required libraries using the following command
+   ```bash
+   pip install requirements.txt
+   ```
 4. **Run the Pipeline**  
    Use image_swap or video_swap, along with your own images to create a basic swap.
 

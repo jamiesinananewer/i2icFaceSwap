@@ -55,11 +55,8 @@ This pipeline utilizes 3DDFA_V2 Morphable Face Models to perform face swapping. 
    ```bash
    git clone https://github.com/yourusername/your-repo.git
    ```
-2. **Activate the virtual environment**  
-   The requirements for this project have been pre-installed into a virtual environment running Python 3.9. To use the code, activate the venv by running the following command in your terminal:
-   ```bash
-   source venv39/bin/activate
-   ```
+2. **Download the requirements**  
+   
 4. **Run the Pipeline**  
    Use image_swap or video_swap, along with your own images to create a basic swap.
 

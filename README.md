@@ -6,7 +6,7 @@ This repository contains a face swapping pipeline built on 3DDFA_V2 Morphable Fa
 DISCLAIMER: This project is unfinished. It is likely that the final product will look very different from how it does now.
 
 ## License
-All non-copyrighted work is released under an Apache License. All copyrighted work is used under the following MIT license:
+All original work is reserved. All previously copyrighted work is used under the following MIT license:
 
 Copyright (c) 2017 Max deGroot, Ellis Brown
 Copyright (c) 2019 Zisian Wong, Shifeng Zhang
